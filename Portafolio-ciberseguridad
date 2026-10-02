@@ -1,0 +1,58 @@
+⚡ REPASO RÁPIDO (En 2 Minutos)
+1. Los 8 Dominios (La Fortaleza Medieval)
+📜 Gestión de Riesgos: Las leyes y reglas (NIST CSF).
+
+🏷️ Seguridad de Activos: Proteger lo valioso, borrar lo viejo.
+
+🏗️ Arquitectura de Seguridad: Diseñar sistemas seguros y encriptar.
+
+🌐 Seguridad de Redes: Cuidar los caminos y paquetes de datos.
+
+🔑 Gestión de Accesos (IAM): El portero que pide contraseña.
+
+🔬 Evaluación y Pruebas: Simulacros de ataques (pentesting).
+
+🚨 Operaciones de Seguridad: Vigilancia 24/7 (SIEM / IDS).
+
+💻 Seguridad en Software: Programar sin fallas (Python / SQL).
+
+2. La Tríada CID / CIA (El Pilar)
+🔐 C - Confidencialidad: Solo lo ve quien debe (Encriptación / IAM).
+
+🛡️ I - Integridad: Nadie lo modifica sin permiso (Hash / Firmas).
+
+⚡ D - Disponibilidad: Funciona siempre que se necesita (Backups).
+
+3. Marcos y Controles
+📐 Marcos (Mapas): NIST CSF (Identificar ➔ Proteger ➔ Detectar ➔ Responder ➔ Recuperar), ISO 27001, CIS Controls.
+
+🛑 Preventivo: Bloquea antes de que pase (Firewall).
+
+🚨 Detectivo: Avisa cuando pasa (IDS / Logs).
+
+🩹 Correctivo: Arregla el daño (Backups / Parches).
+
+⚠️ Disuasorio: Espanta (Avisos / Cámaras).
+
+4. Diccionario GitHub (Términos en Inglés)
+📁 Repository (Repo): La carpeta del proyecto.
+
+📄 README.md: La portada explicativa en Markdown.
+
+💾 Commit: Guardar un punto de control.
+
+🚀 Push: Subir tus avances a la nube.
+
+📥 Pull: Descargar avances de la nube a tu PC.
+
+🧠 GUÍA DE PROFUNDIZACIÓN (Para que se te quede pegado)
+Para pasar del repaso a la memoria a largo plazo, aplica esta técnica de 3 pasos prácticos:
+
+1. El Juego del "Analista en Acción" (Técnica Feynman)
+Elige una noticia de un hackeo real o una situación cotidiana y hazte estas 3 preguntas:
+
+¿Qué pata de la Tríada CID se rompió? (¿Leyeron los datos? = C | ¿Los cambiaron? = I | ¿Se cayó el servicio? = D).
+
+¿Qué tipo de control faltó? (¿Uno preventivo como un firewall o uno detectivo como una alerta SIEM?).
+
+¿A qué dominio pertenece el problema? (¿Redes, software, o accesos/IAM?).
