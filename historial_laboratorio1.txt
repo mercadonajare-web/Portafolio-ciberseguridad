@@ -1,0 +1,31 @@
+    1  whoami
+    2  pwd
+    3  uname -a
+    4  cd ~
+    5  mkdir -p ~/ciberseguridad/curso4
+    6  cd ~/ciberseguridad/curso4
+    7  pwd
+    8  mkdir -p ~/ciberseguridad/laboratorios_mod4
+    9  pwd
+   10  cd ~/ciberseguridad/laboratorios_mod4
+   11  pwd
+   12  ls -la
+   13  cd ~/ciberseguridad/laboratorios_mod4
+   14  ls -ls
+   15  ls-la
+   16  ls -la
+   17  cd ~/ciberseguridad/laboratorios_mod4
+   18  touch reporte_incidente.txt
+   19  echo "alerta: iicio de sesion sopechoso desde ip 10.0.0.45 reporte_incidente.txt
+   20  cat reporte_incidente.txt
+   21  cd ~/ciberseguridad/laboratorios_mod4
+   22  touch reporte_incidente.txt
+   23  echo "Alerta: iinicio de sesion sospechoso desde IP 10.0.0.45 > reporte_incidente.txt 
+cat reporte_incidente.txt
+   24  echo "Alerta: inicio de sesion sospechoso desde IP 10.0.0.45" > reporte_incidente.txt
+   25  cat reporte_icidente.txt
+   26  cat reporte_incidente.txt
+   27  mkdir cuarentena
+   28  mv reporte_incidente.txt cuarentena/
+   29  ls -la cuarentena/
+   30  history > historial_laboratorio1.txt
