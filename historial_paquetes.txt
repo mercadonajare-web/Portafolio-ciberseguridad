@@ -1,0 +1,47 @@
+    1  whoami
+    2  pwd
+    3  uname -a
+    4  cd ~
+    5  mkdir -p ~/ciberseguridad/curso4
+    6  cd ~/ciberseguridad/curso4
+    7  pwd
+    8  mkdir -p ~/ciberseguridad/laboratorios_mod4
+    9  pwd
+   10  cd ~/ciberseguridad/laboratorios_mod4
+   11  pwd
+   12  ls -la
+   13  cd ~/ciberseguridad/laboratorios_mod4
+   14  ls -ls
+   15  ls-la
+   16  ls -la
+   17  cd ~/ciberseguridad/laboratorios_mod4
+   18  touch reporte_incidente.txt
+   19  echo "alerta: iicio de sesion sopechoso desde ip 10.0.0.45 reporte_incidente.txt
+   20  cat reporte_incidente.txt
+   21  cd ~/ciberseguridad/laboratorios_mod4
+   22  touch reporte_incidente.txt
+   23  echo "Alerta: iinicio de sesion sospechoso desde IP 10.0.0.45 > reporte_incidente.txt 
+   24  cat reporte_incidente.txt
+   25  echo "Alerta: inicio de sesion sospechoso desde IP 10.0.0.45" > reporte_incidente.txt
+   26  cat reporte_icidente.txt
+   27  cat reporte_incidente.txt
+   28  mkdir cuarentena
+   29  mv reporte_incidente.txt cuarentena/
+   30  ls -la cuarentena/
+   31  history > historial_laboratorio1.txt
+   32  explorer.exe
+   33  cd ~/ciberseguridad/laboratorios_mod4
+   34  sleep 100 &
+   35  ls -la
+   36  jobs
+   37  top
+   38  cd ~/ciberseguridad/laboratorios_mod4
+   39  wsd
+   40  sudo apt update
+   41  sudo apt intall tcpdump
+   42  sudo apt install tcpdump
+   43  sudo apt install suricata
+   44  sudo apt remove suricata
+   45  sudo apt remove tcpdump
+   46  sudo apt autoremove 
+   47  history > historial_paquetes.txt
