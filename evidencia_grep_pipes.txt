@@ -1,0 +1,15 @@
+Nov 01 08:14:28 srv-soc sshd[1045]: Failed password for root from 203.0.113.45 port 39128 ssh2
+Nov 01 08:14:31 srv-soc sshd[1048]: Failed password for root from 203.0.113.45 port 39132 ssh2
+Nov 01 08:15:00 srv-soc CRON[1050]: (root) CMD (/usr/local/bin/backup.sh)
+Nov 01 08:16:10 srv-soc sshd[1055]: Failed password for test from 198.51.100.22 port 44102 ssh2
+Nov 01 08:18:45 srv-soc sshd[1060]: Accepted password for emmanuel from 192.168.1.15 port 54225 ssh2
+EOF
+
+   84  touch config.json backdoor_payload.sh server.conf red_status.log
+   85  grep "failed ássword" auth_simulado.log
+   86  grep Failed password" auth_simulado.log
+   87  grep "Failed password" auth_simulado.log
+   88  grep "Failed password" auth_simulado.log | wc -l
+   89  grep "Failed password" auth_simulado.log | grep "root" 
+   90  ls -la | grep "backdoor"
+   91  history | tail -n 15 > evidencia_grep_pipes.txt
